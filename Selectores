@@ -1,0 +1,8 @@
+Selectores 
+Etiqueta, identificador, clse ,
+pseudo etiquetas
+selector o un conjutno {
+    atributo: valor;
+    atributo: valor;
+    atributo: valor;
+}
