@@ -4,21 +4,40 @@ body{
     margin: opx auto;
     max-width: 1024px;
 }
+header img{
+    width: 50px;
+}
+
+footer{
+    border: 1px solid blue;
+}
 
 header nav ol {
     text-align: center;
 }
 header nav ol li{
     background-color: blue;
+    border-radius: 5px;
     border: 1px solid blue;
     color: white;
     display: inline-block;
     margin-right: 25px;
     /* padding: 12px; distacia entre el texto y el borde de caja  */
     padding: 10px 26px;
+    box-shadow: 4px 4px 10px black;
 }
 
 header nav ol li:hover{
     background-color: white;
+    box-shadow: 0px 0px 0px black;
     color: blue;
 }
+
+main section article{
+    border: 1px solid red;
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
